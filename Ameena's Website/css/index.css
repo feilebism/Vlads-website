@@ -1,0 +1,92 @@
+body{
+	background-color:#FAEBD7;
+	color:#F08080;
+	font-family:New Century Schoolbook, TeX Gyre Schola, serif;
+	font-size:18px;
+	line-height:1.6em;
+	background-image:url('../images/rose.jpg')
+}
+
+#navbar{
+	background-color:#2F0909;
+	color:#F08080;
+	border-style:double;
+	border-radius:15px;
+	opacity:0.9;
+}
+.box{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	text-align:center;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+	display: inline-block;
+	list-style-type: none;
+}
+
+#navbar li{
+	display:inline;
+	padding-right:40px;
+}
+
+#navbar a{
+	color:#F08080;
+	text-decoration: none;
+	font-size:20px;
+	text-align:center;
+}
+
+#navbar a:hover{
+	color:white;
+}
+
+#navabar a:visited{
+	color:black;
+}
+
+h1{
+	margin:30;
+	text-align:center;
+	font-size:40px;
+	color:#F08080;
+	
+}
+
+.container{
+	width:60%;
+	margin:auto;
+	padding:20px;
+	background-color:#2F0909;
+	text-align:center;
+	border-style:double;
+	border-radius:15px;
+	opacity:0.9;
+	padding-bottom:30px;
+}
+
+.date{
+	text-align:left;
+}
+
+.fix-me{
+	position:fixed;
+	top:400px;
+	text-decoration:none;
+	opacity:0.9;
+}
+
+.button{
+	background-color:#2F0909;
+	color:#F08080;
+	padding:10px 15px;
+	border-style:double;
+	border-radius:15px;
+}
+
+a:hover{
+	color:white;
+}

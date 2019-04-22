@@ -1,0 +1,111 @@
+body{
+	background-color:#FAEBD7;
+	color:#8B0000;
+	font-family:New Century Schoolbook, TeX Gyre Schola, serif;
+	font-size:20px;
+	line-height:1.6em;
+	background-image:url('../images/cats.jpg')
+}
+
+.fix-me{
+	position:fixed;
+	top:400px;
+	text-decoration:none;
+	opacity:0.9;
+}
+
+.button{
+	background-color:#FFDAB9;
+	color:#BD6B57;
+	padding:10px 15px;
+	border-style:double;
+	border-radius:15px;
+}
+
+a:hover{
+	color:white;
+}
+
+.intro{
+		text-align:center;
+		margin:auto;
+		line-height:2.5em;
+		color:#BD6B57;
+		font-size:10px;
+		font-size:18px;
+}
+
+#navbar{
+	background-color:#FFDAB9;
+	color:#BD6B57;
+	border-style:double;
+	border-radius:15px;
+	opacity:0.9;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+	display: inline-block;
+	list-style-type: none;
+}
+
+#navbar li{
+	display:inline;
+	padding-right:40px;
+}
+
+#navbar a{
+	color:#BD6B57;
+	text-decoration: none;
+	font-size:20px;
+	text-align:center;
+}
+
+#navbar a:hover{
+	color:white;
+}
+
+#navabar a:visited{
+	color:black;
+}
+
+.box{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	text-align:center;
+}
+
+h1{
+	padding-top:30px;
+	
+}
+
+.mainbox{
+		font-weight: bold;
+		text-align:center;
+		color:#BD6B57;
+		font-size:22px;
+		border: double #BD6B57;
+		border-radius:15px;
+		margin-top:30px;
+		position:relative;
+		background-color:#FFDAB9;
+		opacity:0.9;
+		width:60%;
+		margin:auto;
+		padding:40px;
+}
+
+.main_left{
+	text-align:left;
+}
+
+.main_center{
+		text-align:center;
+}
+
+.main_right{
+		text-align:right;
+}
